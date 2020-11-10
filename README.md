@@ -2,7 +2,7 @@
 
 ## Suomi
 
-Pieni koodi tekstitysten generointiin ["Kalevala laulettuna"](https://www.youtube.com/channel/UCqoyq2JdWolL_bOOaR904bQ)-videosarjaan. Suomenkieliset tekstitykset on otettu vuonna 1849 valmistuneesta ns. Uudesta Kalevalasta (28. painos). Englannin kieliset tekstitykset ovat W. F. Kirbyn käännöksestä vuodelta 1907.
+Pieni koodi tekstitysten generointiin ["Kalevala laulettuna"](https://www.youtube.com/channel/UCqoyq2JdWolL_bOOaR904bQ)-videosarjaan. Suomenkieliset tekstitykset on otettu vuonna 1849 valmistuneesta ns. Uudesta Kalevalasta (28. painos). Englanninkieliset tekstitykset ovat W. F. Kirbyn käännöksestä vuodelta 1907.
 
 Tekstitykset generoituvat .srt-formaatissa ja ne löytyvät kansiosta subtitles/. Tekstityksiä generoitaessa osa säkeiden alkuajoista määritetään manuaalisesti, minkä jälkeen algoritmi interpoloi loput tekstien vaihtumisajankohdat. Yhden säkeen määrittäminen 25:stä vaikuttaisi toimivan riittävän hyvin.
 
