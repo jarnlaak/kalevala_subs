@@ -1,0 +1,944 @@
+1
+00:00:17,300 --> 00:00:21,108
+Vaka vanha Väinämöinen
+
+2
+00:00:21,108 --> 00:00:24,917
+lähteäksensä käkesi
+
+3
+00:00:24,917 --> 00:00:28,725
+tuonne kylmähän kylähän,
+
+4
+00:00:28,725 --> 00:00:32,533
+pimeähän Pohjolahan.
+
+5
+00:00:32,533 --> 00:00:36,342
+Otti olkisen orihin,
+
+6
+00:00:36,342 --> 00:00:40,150
+hernevartisen hevosen,
+
+7
+00:00:40,150 --> 00:00:43,958
+pisti suitset kullan suuhun,
+
+8
+00:00:43,958 --> 00:00:47,767
+päitsensä hopean päähän:
+
+9
+00:00:47,767 --> 00:00:51,575
+itse istuvi selälle,
+
+10
+00:00:51,575 --> 00:00:55,383
+löihe reisin ratsahille.
+
+11
+00:00:55,383 --> 00:00:59,192
+Ajoa hyryttelevi,
+
+12
+00:00:59,192 --> 00:01:03,000
+matkoansa mittelevi
+
+13
+00:01:03,000 --> 00:01:06,808
+orihilla olkisella,
+
+14
+00:01:06,808 --> 00:01:10,617
+hernevarrella hevolla.
+
+15
+00:01:10,617 --> 00:01:14,425
+Ajoi Väinölän ahoja,
+
+16
+00:01:14,425 --> 00:01:18,233
+Kalevalan kankahia:
+
+17
+00:01:18,233 --> 00:01:22,042
+hepo juoksi, matka joutui,
+
+18
+00:01:22,042 --> 00:01:25,850
+koti jääpi, tie lyheni.
+
+19
+00:01:25,850 --> 00:01:29,658
+Jo ajoi meren selälle,
+
+20
+00:01:29,658 --> 00:01:33,467
+ulapalle aukealle
+
+21
+00:01:33,467 --> 00:01:37,275
+kapioisen kastumatta,
+
+22
+00:01:37,275 --> 00:01:41,083
+vuohisen vajoumatta.
+
+23
+00:01:41,083 --> 00:01:44,892
+Olipa nuori Joukahainen,
+
+24
+00:01:44,892 --> 00:01:48,700
+laiha poika lappalainen.
+
+25
+00:01:48,700 --> 00:01:52,532
+Piti viikoista vihoa,
+
+26
+00:01:52,532 --> 00:01:56,364
+ylen kauaista kaetta
+
+27
+00:01:56,364 --> 00:02:00,196
+kera vanhan Väinämöisen,
+
+28
+00:02:00,196 --> 00:02:04,028
+päälle laulajan ikuisen.
+
+29
+00:02:04,028 --> 00:02:07,860
+Laativi tulisen jousen,
+
+30
+00:02:07,860 --> 00:02:11,692
+jalon kaaren kaunistavi:
+
+31
+00:02:11,692 --> 00:02:15,524
+kaaren rauasta rakenti,
+
+32
+00:02:15,524 --> 00:02:19,356
+vaskesta selän valavi;
+
+33
+00:02:19,356 --> 00:02:23,188
+noita on kullalla kuvaili,
+
+34
+00:02:23,188 --> 00:02:27,020
+hopealla huolitteli.
+
+35
+00:02:27,020 --> 00:02:30,852
+Mistä siihen nauhan saapi,
+
+36
+00:02:30,852 --> 00:02:34,684
+kusta jäntehen tapasi?
+
+37
+00:02:34,684 --> 00:02:38,516
+Hiien hirven suoniloista,
+
+38
+00:02:38,516 --> 00:02:42,348
+Lemmon liinanuorasista!
+
+39
+00:02:42,348 --> 00:02:46,180
+Sai kaaren kanineheksi,
+
+40
+00:02:46,180 --> 00:02:50,012
+jousen varsin valmihiksi.
+
+41
+00:02:50,012 --> 00:02:53,844
+Kaari on kaunihin näköinen,
+
+42
+00:02:53,844 --> 00:02:57,676
+jousi jonki maksavainen:
+
+43
+00:02:57,676 --> 00:03:01,508
+hevonen selällä seisoi,
+
+44
+00:03:01,508 --> 00:03:05,340
+varsa juoksi vartta myöten,
+
+45
+00:03:05,340 --> 00:03:09,172
+kapo kaarella makasi,
+
+46
+00:03:09,172 --> 00:03:13,004
+jänö jäntimen sijassa.
+
+47
+00:03:13,004 --> 00:03:16,836
+Vuoli piiliä pinosen,
+
+48
+00:03:16,836 --> 00:03:20,668
+kolmisulkia kokosen:
+
+49
+00:03:20,668 --> 00:03:24,500
+varret tammesta vanuvi,
+
+50
+00:03:24,500 --> 00:03:28,312
+päät tekevi tervaksesta.
+
+51
+00:03:28,312 --> 00:03:32,124
+Minkä saapi valmihiksi,
+
+52
+00:03:32,124 --> 00:03:35,936
+sen sitte sulittelevi
+
+53
+00:03:35,936 --> 00:03:39,748
+pääskyn pienillä sulilla,
+
+54
+00:03:39,748 --> 00:03:43,560
+varpusen vivustimilla.
+
+55
+00:03:43,560 --> 00:03:47,372
+Karkaeli nuoliansa,
+
+56
+00:03:47,372 --> 00:03:51,184
+puretteli piiliänsä
+
+57
+00:03:51,184 --> 00:03:54,996
+maon mustissa mujuissa,
+
+58
+00:03:54,996 --> 00:03:58,808
+käärmehen kähyverissä.
+
+59
+00:03:58,808 --> 00:04:02,620
+Sai vasamat valmihiksi,
+
+60
+00:04:02,620 --> 00:04:06,432
+jousen jänniteltäväksi.
+
+61
+00:04:06,432 --> 00:04:10,244
+Siitä vuotti Väinämöistä,
+
+62
+00:04:10,244 --> 00:04:14,056
+saavaksi suvantolaista;
+
+63
+00:04:14,056 --> 00:04:17,868
+vuotti illan, vuotti aamun,
+
+64
+00:04:17,868 --> 00:04:21,680
+vuotti kerran keskipäivän.
+
+65
+00:04:21,680 --> 00:04:25,492
+Viikon vuotti Väinämöistä,
+
+66
+00:04:25,492 --> 00:04:29,304
+viikon vuotti, ei väsynyt,
+
+67
+00:04:29,304 --> 00:04:33,116
+istuellen ikkunoissa,
+
+68
+00:04:33,116 --> 00:04:36,928
+valvoen vajojen päissä,
+
+69
+00:04:36,928 --> 00:04:40,740
+kuunnellen kujan perällä,
+
+70
+00:04:40,740 --> 00:04:44,552
+vahtaellen vainiolla,
+
+71
+00:04:44,552 --> 00:04:48,364
+viini nuolia selässä,
+
+72
+00:04:48,364 --> 00:04:52,176
+hyvä kaari kainalossa.
+
+73
+00:04:52,176 --> 00:04:55,988
+Vuotteli ulompanaki,
+
+74
+00:04:55,988 --> 00:04:59,800
+talon toisen tuolla puolla:
+
+75
+00:04:59,800 --> 00:05:03,540
+nenässä tulisen niemen,
+
+76
+00:05:03,540 --> 00:05:07,280
+tulikaiskun kainalossa,
+
+77
+00:05:07,280 --> 00:05:11,020
+korvalla tulisen kosken,
+
+78
+00:05:11,020 --> 00:05:14,760
+pyhän virran viertimellä.
+
+79
+00:05:14,760 --> 00:05:18,500
+Niin päivänä muutamana,
+
+80
+00:05:18,500 --> 00:05:22,240
+huomenna moniahana
+
+81
+00:05:22,240 --> 00:05:25,980
+loi silmänsä luotehelle,
+
+82
+00:05:25,980 --> 00:05:29,720
+käänti päätä päivän alle;
+
+83
+00:05:29,720 --> 00:05:33,460
+keksi mustasen merellä,
+
+84
+00:05:33,460 --> 00:05:37,200
+sinerväisen lainehilla:
+
+85
+00:05:37,200 --> 00:05:40,940
+"Onko se iässä pilvi,
+
+86
+00:05:40,940 --> 00:05:44,680
+päivän koite koillisessa?"
+
+87
+00:05:44,680 --> 00:05:48,420
+Ei ollut iässä pilvi,
+
+88
+00:05:48,420 --> 00:05:52,160
+päivän koite koillisessa:
+
+89
+00:05:52,160 --> 00:05:55,900
+oli vanha Väinämöinen,
+
+90
+00:05:55,900 --> 00:05:59,640
+laulaja iän-ikuinen,
+
+91
+00:05:59,640 --> 00:06:03,380
+matkoava Pohjolahan,
+
+92
+00:06:03,380 --> 00:06:07,120
+kulkeva Pimentolahan
+
+93
+00:06:07,120 --> 00:06:10,860
+orihilla olkisella,
+
+94
+00:06:10,860 --> 00:06:14,600
+hernevarrella hevolla.
+
+95
+00:06:14,600 --> 00:06:18,340
+Tuop' on nuori Joukahainen,
+
+96
+00:06:18,340 --> 00:06:22,080
+laiha poika lappalainen,
+
+97
+00:06:22,080 --> 00:06:25,820
+jou'utti tulisen jousen,
+
+98
+00:06:25,820 --> 00:06:29,560
+koppoi kaaren kaunihimman
+
+99
+00:06:29,560 --> 00:06:33,300
+pään varalle Väinämöisen,
+
+100
+00:06:33,300 --> 00:06:37,052
+surmaksi suvantolaisen.
+
+101
+00:06:37,052 --> 00:06:40,804
+Ennätti emo kysyä,
+
+102
+00:06:40,804 --> 00:06:44,556
+vanhempansa tutkaella:
+
+103
+00:06:44,556 --> 00:06:48,308
+"Kellen jousta jouahutat,
+
+104
+00:06:48,308 --> 00:06:52,060
+kaarta rauta rauahutat?"
+
+105
+00:06:52,060 --> 00:06:55,812
+Tuop' on nuori Joukahainen
+
+106
+00:06:55,812 --> 00:06:59,564
+sanan virkkoi, noin nimesi:
+
+107
+00:06:59,564 --> 00:07:03,316
+"Tuohon jousta jouahutan,
+
+108
+00:07:03,316 --> 00:07:07,068
+kaarta rauta rauahutan:
+
+109
+00:07:07,068 --> 00:07:10,820
+pään varalle Väinämöisen,
+
+110
+00:07:10,820 --> 00:07:14,572
+surmaksi suvantolaisen.
+
+111
+00:07:14,572 --> 00:07:18,324
+Ammun vanhan Väinämöisen,
+
+112
+00:07:18,324 --> 00:07:22,076
+lasken laulajan ikuisen
+
+113
+00:07:22,076 --> 00:07:25,828
+läpi syämen, maksan kautta,
+
+114
+00:07:25,828 --> 00:07:29,580
+halki hartiolihojen."
+
+115
+00:07:29,580 --> 00:07:33,332
+Emo kielti ampumasta,
+
+116
+00:07:33,332 --> 00:07:37,084
+emo kielti ja epäsi:
+
+117
+00:07:37,084 --> 00:07:40,836
+"Elä ammu Väinämöistä,
+
+118
+00:07:40,836 --> 00:07:44,588
+kaota kalevalaista!
+
+119
+00:07:44,588 --> 00:07:48,340
+Väinö on sukua suurta:
+
+120
+00:07:48,340 --> 00:07:52,092
+lankoni sisaren poika.
+
+121
+00:07:52,092 --> 00:07:55,844
+"Ampuisitko Väinämöisen,
+
+122
+00:07:55,844 --> 00:07:59,596
+kaataisit kalevalaisen,
+
+123
+00:07:59,596 --> 00:08:03,348
+ilo ilmalta katoisi,
+
+124
+00:08:03,348 --> 00:08:07,100
+laulu maalta lankeaisi.
+
+125
+00:08:07,100 --> 00:08:10,868
+Ilo on ilmalla parempi,
+
+126
+00:08:10,868 --> 00:08:14,636
+laulu maalla laatuisampi,
+
+127
+00:08:14,636 --> 00:08:18,404
+kuin onpi Manalan mailla,
+
+128
+00:08:18,404 --> 00:08:22,172
+noilla Tuonelan tuvilla."
+
+129
+00:08:22,172 --> 00:08:25,940
+Tuossa nuori Joukahainen
+
+130
+00:08:25,940 --> 00:08:29,708
+jo vähän ajattelevi,
+
+131
+00:08:29,708 --> 00:08:33,476
+pikkuisen piättelevi:
+
+132
+00:08:33,476 --> 00:08:37,244
+käsi käski ampumahan,
+
+133
+00:08:37,244 --> 00:08:41,012
+käsi käski, toinen kielti,
+
+134
+00:08:41,012 --> 00:08:44,780
+sormet suoniset pakotti.
+
+135
+00:08:44,780 --> 00:08:48,548
+Virkki viimeinki sanoiksi,
+
+136
+00:08:48,548 --> 00:08:52,316
+itse lausui, noin nimesi:
+
+137
+00:08:52,316 --> 00:08:56,084
+"Kaotkohot jos kahesti
+
+138
+00:08:56,084 --> 00:08:59,852
+kaikki ilmaiset ilomme,
+
+139
+00:08:59,852 --> 00:09:03,620
+kaikki laulut langetkohot!
+
+140
+00:09:03,620 --> 00:09:07,388
+Varsin ammun, en varanne."
+
+141
+00:09:07,388 --> 00:09:11,156
+Jännitti tulisen jousen,
+
+142
+00:09:11,156 --> 00:09:14,924
+veti vaskisen vekaran
+
+143
+00:09:14,924 --> 00:09:18,692
+vasten polvea vasenta,
+
+144
+00:09:18,692 --> 00:09:22,460
+jalan alta oikeansa.
+
+145
+00:09:22,460 --> 00:09:26,228
+Veti viinestä vasaman,
+
+146
+00:09:26,228 --> 00:09:29,996
+sulan kolmikoipisesta,
+
+147
+00:09:29,996 --> 00:09:33,764
+otti nuolen orhe'imman,
+
+148
+00:09:33,764 --> 00:09:37,532
+valitsi parahan varren;
+
+149
+00:09:37,532 --> 00:09:41,300
+tuon on juonelle asetti,
+
+150
+00:09:41,300 --> 00:09:45,040
+liitti liinajäntehelle.
+
+151
+00:09:45,040 --> 00:09:48,780
+Oikaisi tulisen jousen
+
+152
+00:09:48,780 --> 00:09:52,520
+olallehen oikealle,
+
+153
+00:09:52,520 --> 00:09:56,260
+asetaiksen ampumahan,
+
+154
+00:09:56,260 --> 00:10:00,000
+ampumahan Väinämöistä.
+
+155
+00:10:00,000 --> 00:10:03,740
+Itse tuon sanoiksi virkki:
+
+156
+00:10:03,740 --> 00:10:07,480
+"Iske nyt, koivuinen sakara,
+
+157
+00:10:07,480 --> 00:10:11,220
+petäjäinen selkä, lyö'ös,
+
+158
+00:10:11,220 --> 00:10:14,960
+jänne liina, lippaellos!
+
+159
+00:10:14,960 --> 00:10:18,700
+Min käsi alentanehe,
+
+160
+00:10:18,700 --> 00:10:22,440
+sen nuoli ylentäköhön;
+
+161
+00:10:22,440 --> 00:10:26,180
+min käsi ylentänehe,
+
+162
+00:10:26,180 --> 00:10:29,920
+sen nuoli alentakohon!"
+
+163
+00:10:29,920 --> 00:10:33,660
+Lekahutti liipaisinta,
+
+164
+00:10:33,660 --> 00:10:37,400
+ampui nuolen ensimäisen:
+
+165
+00:10:37,400 --> 00:10:41,140
+se meni kovan ylätse,
+
+166
+00:10:41,140 --> 00:10:44,880
+päältä pään on taivahalle,
+
+167
+00:10:44,880 --> 00:10:48,620
+pilvihin pirajavihin,
+
+168
+00:10:48,620 --> 00:10:52,360
+hattaroihin pyörivihin.
+
+169
+00:10:52,360 --> 00:10:56,100
+Toki ampui, ei totellut.
+
+170
+00:10:56,100 --> 00:10:59,840
+Ampui toisen nuoliansa:
+
+171
+00:10:59,840 --> 00:11:03,580
+se meni kovan alatse,
+
+172
+00:11:03,580 --> 00:11:07,320
+alaisehen maa-emähän;
+
+173
+00:11:07,320 --> 00:11:11,060
+tahtoi maa manalle mennä,
+
+174
+00:11:11,060 --> 00:11:14,800
+hietaharju halkiella.
+
+175
+00:11:14,800 --> 00:11:18,548
+Ampui kohta kolmannenki:
+
+176
+00:11:18,548 --> 00:11:22,296
+kävi kohti kolmannesti,
+
+177
+00:11:22,296 --> 00:11:26,044
+sapsohon sinisen hirven
+
+178
+00:11:26,044 --> 00:11:29,792
+alta vanhan Väinämöisen;
+
+179
+00:11:29,792 --> 00:11:33,540
+ampui olkisen orihin,
+
+180
+00:11:33,540 --> 00:11:37,288
+hernevartisen hevosen
+
+181
+00:11:37,288 --> 00:11:41,036
+läpi länkiluun lihoista,
+
+182
+00:11:41,036 --> 00:11:44,784
+kautta kainalon vasemman.
+
+183
+00:11:44,784 --> 00:11:48,532
+Siitä vanha Väinämöinen
+
+184
+00:11:48,532 --> 00:11:52,280
+sormin suistuvi sulahan,
+
+185
+00:11:52,280 --> 00:11:56,028
+käsin kääntyi lainehesen,
+
+186
+00:11:56,028 --> 00:11:59,776
+kourin kuohu'un kohahti
+
+187
+00:11:59,776 --> 00:12:03,524
+selästä sinisen hirven,
+
+188
+00:12:03,524 --> 00:12:07,272
+hernevartisen hevosen.
+
+189
+00:12:07,272 --> 00:12:11,020
+Nousi siitä suuri tuuli,
+
+190
+00:12:11,020 --> 00:12:14,768
+aalto ankara merellä;
+
+191
+00:12:14,768 --> 00:12:18,516
+kantoi vanhan Väinämöisen,
+
+192
+00:12:18,516 --> 00:12:22,264
+uitteli ulomma maasta
+
+193
+00:12:22,264 --> 00:12:26,012
+noille väljille vesille,
+
+194
+00:12:26,012 --> 00:12:29,760
+ulapoille auke'ille.
+
+195
+00:12:29,760 --> 00:12:33,508
+Siinä nuori Joukahainen
+
+196
+00:12:33,508 --> 00:12:37,256
+itse kielin kerskaeli:
+
+197
+00:12:37,256 --> 00:12:41,004
+"Et sinä, vanha Väinämöinen,
+
+198
+00:12:41,004 --> 00:12:44,752
+enämpi elävin silmin
+
+199
+00:12:44,752 --> 00:12:48,500
+sinä ilmoisna ikänä,
+
+200
+00:12:48,500 --> 00:12:52,236
+kuuna kullan valkeana
+
+201
+00:12:52,236 --> 00:12:55,972
+astu Väinölän ahoja,
+
+202
+00:12:55,972 --> 00:12:59,708
+Kalevalan kankahia!
+
+203
+00:12:59,708 --> 00:13:03,444
+"Kupli nyt siellä kuusi vuotta,
+
+204
+00:13:03,444 --> 00:13:07,180
+seuro seitsemän kesyttä,
+
+205
+00:13:07,180 --> 00:13:10,916
+karehi kaheksan vuotta
+
+206
+00:13:10,916 --> 00:13:14,652
+noilla väljillä vesillä,
+
+207
+00:13:14,652 --> 00:13:18,388
+lake'illa lainehilla:
+
+208
+00:13:18,388 --> 00:13:22,124
+vuotta kuusi kuusipuuna,
+
+209
+00:13:22,124 --> 00:13:25,860
+seitsemän petäjäpuuna,
+
+210
+00:13:25,860 --> 00:13:29,596
+kannon pölkkynä kaheksan!"
+
+211
+00:13:29,596 --> 00:13:33,332
+Siitä pistihe sisälle.
+
+212
+00:13:33,332 --> 00:13:37,068
+Sai emo kysyneheksi:
+
+213
+00:13:37,068 --> 00:13:40,804
+"Joko ammuit Väinämöisen,
+
+214
+00:13:40,804 --> 00:13:44,540
+kaotit Kalevan poian?"
+
+215
+00:13:44,540 --> 00:13:48,276
+Tuop' on nuori Joukahainen
+
+216
+00:13:48,276 --> 00:13:52,012
+sanan vastahan sanovi:
+
+217
+00:13:52,012 --> 00:13:55,748
+"Jo nyt ammuin Väinämöisen
+
+218
+00:13:55,748 --> 00:13:59,484
+ja kaaoin kalevalaisen,
+
+219
+00:13:59,484 --> 00:14:03,220
+loin on merta luutimahan,
+
+220
+00:14:03,220 --> 00:14:06,956
+lainetta lakaisemahan.
+
+221
+00:14:06,956 --> 00:14:10,692
+Tuohon lietohon merehen,
+
+222
+00:14:10,692 --> 00:14:14,428
+aivan aaltojen sekahan
+
+223
+00:14:14,428 --> 00:14:18,164
+sortui ukko sormillehen,
+
+224
+00:14:18,164 --> 00:14:21,900
+kääntyi kämmenyisillehen;
+
+225
+00:14:21,900 --> 00:14:25,640
+siitä kyykertyi kylelle,
+
+226
+00:14:25,640 --> 00:14:29,380
+selällehen seisottihe
+
+227
+00:14:29,380 --> 00:14:33,120
+meren aaltojen ajella,
+
+228
+00:14:33,120 --> 00:14:36,860
+meren tyrskyn tyyräellä."
+
+229
+00:14:36,860 --> 00:14:40,600
+Tuon emo sanoiksi virkki:
+
+230
+00:14:40,600 --> 00:14:44,340
+"Pahoin teit sinä poloinen,
+
+231
+00:14:44,340 --> 00:14:48,080
+kun on ammuit Väinämöisen,
+
+232
+00:14:48,080 --> 00:14:51,820
+kaotit kalevalaisen,
+
+233
+00:14:51,820 --> 00:14:55,560
+Suvantolan suuren miehen,
+
+234
+00:14:55,560 --> 00:14:59,300
+Kalevalan kaunihimman!"
+
+235
+00:14:59,300 --> 00:15:03,600
+Suvantolan suuren miehen,
+
+236
+00:15:03,600 --> 00:15:09,000
+Kalevalan kaunihimman!"
+
