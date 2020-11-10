@@ -1,5 +1,6 @@
 import numpy as np
 import re
+import io
 from scipy.interpolate import interp1d
 
 # Interpolates starting times of verses based on a subset of times
@@ -19,7 +20,7 @@ def load_text(runo, version="fi"):
     assert(version in ["fi", "en_kirby"])
     runot = []
     if version == "fi":
-        with open("kalevala_fi.txt", 'r') as fp:
+        with io.open("kalevala_fi.txt", 'r', encoding='utf8') as fp:
             first_reached = False
             empty_count = 0
             lines = []
@@ -29,7 +30,7 @@ def load_text(runo, version="fi"):
                     continue
                 if not first_reached:
                     continue
-                if line == "\n":
+                if line.isspace():
                     if len(lines)>1 and empty_count>1:
                         runot.append(lines)
                         lines = []
@@ -45,7 +46,7 @@ def load_text(runo, version="fi"):
     
     elif version == "en_kirby":
         assert(runo > 0 and runo < 26)
-        with open("kalevala_en_kirby_1907.txt", 'r') as fp:
+        with io.open("kalevala_en_kirby_1907.txt", 'r', encoding='utf8') as fp:
             first_reached = False
             empty_count = 0
             lines = []
@@ -55,7 +56,7 @@ def load_text(runo, version="fi"):
                     continue
                 if not first_reached:
                     continue
-                if line == "\n":
+                if line.isspace():
                     continue
                 if not line.startswith(" "):
                     if len(lines) > 0:
@@ -69,7 +70,7 @@ def load_text(runo, version="fi"):
 
 # Converts seconds to string hh:MM:ss,mmm
 def seconds_to_time(seconds):
-    ms = round((seconds - int(seconds))*1000)
+    ms = int(round((seconds - int(seconds))*1000))
     seconds = int(seconds)
     h = seconds//3600
     seconds -= 3600*h
@@ -81,7 +82,7 @@ def seconds_to_time(seconds):
 # Prints the subtitles in .srt format to a file. 
 def print_srt(text, times, file_path, test=False):
     assert(len(text) == len(times)-1)
-    with open(file_path, 'w') as f:
+    with io.open(file_path, 'w', encoding='utf8') as f:
         for i, t in enumerate(text):
             print(i+1, file=f)
             print(seconds_to_time(times[i]) + " --> " + seconds_to_time(times[i+1]), file=f)
@@ -128,8 +129,8 @@ def runo_1(test=False):
                     347:    time(19,37)}
     times = interpolate_times(time_stamps)
 
-    print_srt(text_fi, times, "captions/runo_1_fi.srt", test=test)
-    print_srt(text_en, times, "captions/runo_1_en.srt", test=test)
+    print_srt(text_fi, times, "subtitles/runo_1_fi.srt", test=test)
+    print_srt(text_en, times, "subtitles/runo_1_en.srt", test=test)
 
 
 # Generates subtitles for poem 3
@@ -170,6 +171,5 @@ def runo_3(test=False):
                     583:    time(30,59)}
     times = interpolate_times(time_stamps)
 
-    print_srt(text_fi, times, "test/runo_3_fi.srt", test=test)
-    print_srt(text_en, times, "test/runo_3_en.srt", test=test)
-
+    print_srt(text_fi, times, "subtitles/runo_3_fi.srt", test=test)
+    print_srt(text_en, times, "subtitles/runo_3_en.srt", test=test)
