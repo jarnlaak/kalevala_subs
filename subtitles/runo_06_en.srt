@@ -939,6 +939,6 @@ Kalevala's most famous hero."
 Of Suvantola the hero,
 
 236
-00:15:03,600 --> 00:15:09,000
+00:15:03,600 --> 00:15:08,600
 Kalevala's most famous hero."
 

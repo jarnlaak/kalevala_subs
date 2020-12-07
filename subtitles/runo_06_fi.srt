@@ -939,6 +939,6 @@ Kalevalan kaunihimman!"
 Suvantolan suuren miehen,
 
 236
-00:15:03,600 --> 00:15:09,000
+00:15:03,600 --> 00:15:08,600
 Kalevalan kaunihimman!"
 

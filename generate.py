@@ -100,188 +100,180 @@ def add_repeat(text):
 time = lambda m,s: 60*m+s
 
 
-# Generates subtitles for poem 1
-def runo_1(test=False):
-    text_fi = load_text(1, "fi")
-    text_en = load_text(1, "en_kirby")
+# General function for generating subtitles for a poem
+def generate(number, time_stamps, repeat=True, test=False):
+    # Load subtitle arrays that correspond to the poem
+    text_fi = load_text(number, "fi")
+    text_en = load_text(number, "en_kirby")
 
-    text_fi = add_repeat(text_fi)
-    text_en = add_repeat(text_en)
+    # Add the repetition of last two lines to the subtitle arrays
+    if repeat:
+        text_fi = add_repeat(text_fi)
+        text_en = add_repeat(text_en)
 
     assert(len(text_fi) == len(text_en))
 
-    time_stamps = { 1:      time(0,12.6),
-                    25:     time(1,44.2),
-                    50:     time(3,15.5),
-                    75:     time(4,44.5),
-                    100:    time(6,10.6),
-                    125:    time(7,35.2),
-                    150:    time(8,58.5),
-                    175:    time(10,20.6),
-                    200:    time(11,42.6),
-                    225:    time(13,3.7),
-                    250:    time(14,24.3),
-                    275:    time(15,45.1),
-                    300:    time(17,5.4),
-                    325:    time(18,25.7),
-                    345:    time(19,30),
-                    346:    time(19,33),
-                    347:    time(19,37)}
+    # Interpolate rest of the times
     times = interpolate_times(time_stamps)
 
-    print_srt(text_fi, times, "subtitles/runo_01_fi.srt", test=test)
-    print_srt(text_en, times, "subtitles/runo_01_en.srt", test=test)
+    # Write the subtitles to file
+    name_base = "subtitles/runo_{:0>2}".format(number)
+    print_srt(text_fi, times, name_base+"_fi.srt", test=test)
+    print_srt(text_en, times, name_base+"_en.srt", test=test)
+
+
+# Generates subtitles for poem 1
+def runo_1(test=False):
+
+    # Define starting times of some verses in minutes and seconds.
+    # First and last verses should always be given. The first poem of Kalevala
+    # has 344 verses. With the repetition of the last two verses, this amounts
+    # to 346 lines of text. Generally, defining every 25th verse is enough. If
+    # the tempo changes a lot, more times are needed.
+    time_stamps = { 1:      time(0, 12.6),
+                    25:     time(1, 44.2),
+                    50:     time(3, 15.5),
+                    75:     time(4, 44.5),
+                    100:    time(6, 10.6),
+                    125:    time(7, 35.2),
+                    150:    time(8, 58.5),
+                    175:    time(10, 20.6),
+                    200:    time(11, 42.6),
+                    225:    time(13, 3.7),
+                    250:    time(14, 24.3),
+                    275:    time(15, 45.1),
+                    300:    time(17, 5.4),
+                    325:    time(18, 25.7),
+                    345:    time(19, 30),
+                    346:    time(19, 33)}
+    
+    # Add ending time for the last verse. Here it is 4 seconds after its start.
+    last = max(time_stamps.keys())
+    time_stamps[last+1] = time_stamps[last]+4
+    
+    generate(1, time_stamps, repeat=True, test=test)
 
 
 # Generates subtitles for poem 2
 def runo_2(test=False):
-    text_fi = load_text(2, "fi")
-    text_en = load_text(2, "en_kirby")
 
-    text_fi = add_repeat(text_fi)
-    text_en = add_repeat(text_en)
-
-    assert(len(text_fi) == len(text_en))
-
-    time_stamps = { 1:      time(0,14.6),
-                    25:     time(1,53.6),
-                    50:     time(3,29.7),
-                    75:     time(5,2),
-                    100:    time(6,31),
-                    125:    time(7,58.6),
-                    150:    time(9,25.4),
-                    175:    time(10,50.2),
-                    200:    time(12,13.5),
-                    225:    time(13,36.9),
-                    250:    time(14,59.7),
-                    275:    time(16,22.5),
-                    300:    time(17,44.6),
-                    325:    time(19,5.4),
-                    350:    time(20,26.2),
-                    379:    time(22,0.1),
-                    380:    time(22,3.6),
-                    381:    time(22,8)}
-    times = interpolate_times(time_stamps)
-
-    print_srt(text_fi, times, "subtitles/runo_02_fi.srt", test=test)
-    print_srt(text_en, times, "subtitles/runo_02_en.srt", test=test)
+    time_stamps = { 1:      time(0, 14.6),
+                    25:     time(1, 53.6),
+                    50:     time(3, 29.7),
+                    75:     time(5, 2),
+                    100:    time(6, 31),
+                    125:    time(7, 58.6),
+                    150:    time(9, 25.4),
+                    175:    time(10, 50.2),
+                    200:    time(12, 13.5),
+                    225:    time(13, 36.9),
+                    250:    time(14, 59.7),
+                    275:    time(16, 22.5),
+                    300:    time(17, 44.6),
+                    325:    time(19, 5.4),
+                    350:    time(20, 26.2),
+                    379:    time(22, 0.1),
+                    380:    time(22, 3.6)}
+    
+    last = max(time_stamps.keys())
+    time_stamps[last+1] = time_stamps[last]+4
+    
+    generate(2, time_stamps, repeat=True, test=test)
 
 
 # Generates subtitles for poem 3
 def runo_3(test=False):
-    text_fi = load_text(3, "fi")
-    text_en = load_text(3, "en_kirby")
 
-    text_fi = add_repeat(text_fi)
-    text_en = add_repeat(text_en)
-
-    assert(len(text_fi) == len(text_en))
-
-    time_stamps = { 1:      time(0,14.9),
-                    25:     time(1,42.2),
-                    50:     time(3,10.5),
-                    75:     time(4,37.3),
-                    100:    time(6,2.8),
-                    125:    time(7,26.4),
-                    150:    time(8,49.8),
-                    175:    time(10,11.6),
-                    200:    time(11,32.4),
-                    225:    time(12,52.2),
-                    250:    time(14,10.8),
-                    275:    time(15,29.2),
-                    300:    time(16,46),
-                    325:    time(18,3.6),
-                    350:    time(19,20.1),
-                    375:    time(20,36.2),
-                    400:    time(21,52.1),
-                    425:    time(23,7.4),
-                    450:    time(24,22.5),
-                    475:    time(25,37.3),
-                    500:    time(26,52),
-                    525:    time(28,6.3),
-                    550:    time(29,20.3),
-                    581:    time(30,51.9),
-                    582:    time(30,55.2),
-                    583:    time(30,59)}
-    times = interpolate_times(time_stamps)
-
-    print_srt(text_fi, times, "subtitles/runo_03_fi.srt", test=test)
-    print_srt(text_en, times, "subtitles/runo_03_en.srt", test=test)
+    time_stamps = { 1:      time(0, 14.9),
+                    25:     time(1, 42.2),
+                    50:     time(3, 10.5),
+                    75:     time(4, 37.3),
+                    100:    time(6, 2.8),
+                    125:    time(7, 26.4),
+                    150:    time(8, 49.8),
+                    175:    time(10, 11.6),
+                    200:    time(11, 32.4),
+                    225:    time(12, 52.2),
+                    250:    time(14, 10.8),
+                    275:    time(15, 29.2),
+                    300:    time(16, 46),
+                    325:    time(18, 3.6),
+                    350:    time(19, 20.1),
+                    375:    time(20, 36.2),
+                    400:    time(21, 52.1),
+                    425:    time(23, 7.4),
+                    450:    time(24, 22.5),
+                    475:    time(25, 37.3),
+                    500:    time(26, 52),
+                    525:    time(28, 6.3),
+                    550:    time(29, 20.3),
+                    581:    time(30, 51.9),
+                    582:    time(30, 55.2)}
+    
+    last = max(time_stamps.keys())
+    time_stamps[last+1] = time_stamps[last]+4
+    
+    generate(3, time_stamps, repeat=True, test=test)
 
 
     # Generates subtitles for poem 4
 def runo_4(test=False):
-    text_fi = load_text(4, "fi")
-    text_en = load_text(4, "en_kirby")
 
-    text_fi = add_repeat(text_fi)
-    text_en = add_repeat(text_en)
+    time_stamps = { 1:      time(0, 38.9),
+                    25:     time(2, 15.1),
+                    50:     time(3, 53.4),
+                    75:     time(5, 29.2),
+                    100:    time(7, 3),
+                    125:    time(8, 35.3),
+                    150:    time(10, 6.1),
+                    175:    time(11, 35.6),
+                    200:    time(13, 4),
+                    225:    time(14, 31.2),
+                    250:    time(15, 57.5),
+                    275:    time(17, 23.1),
+                    300:    time(18, 48.2),
+                    325:    time(20, 12.5),
+                    337:    time(20, 54),
+                    350:    time(21, 39.7),
+                    372:    time(22, 56.4),
+                    373:    time(23, 07.5),
+                    375:    time(23, 14.6),
+                    400:    time(24, 41),
+                    425:    time(26, 5),
+                    450:    time(27, 28.3),
+                    475:    time(28, 51.6),
+                    500:    time(30, 15.2),
+                    519:    time(31, 19.3),
+                    520:    time(31, 23.1)}
+    
+    last = max(time_stamps.keys())
+    time_stamps[last+1] = time_stamps[last]+5
 
-    assert(len(text_fi) == len(text_en))
-
-    time_stamps = { 1:      time(0,38.9),
-                    25:     time(2,15.1),
-                    50:     time(3,53.4),
-                    75:     time(5,29.2),
-                    100:    time(7,3),
-                    125:    time(8,35.3),
-                    150:    time(10,6.1),
-                    175:    time(11,35.6),
-                    200:    time(13,4),
-                    225:    time(14,31.2),
-                    250:    time(15,57.5),
-                    275:    time(17,23.1),
-                    300:    time(18,48.2),
-                    325:    time(20,12.5),
-                    337:    time(20,54),
-                    350:    time(21,39.7),
-                    372:    time(22,56.4),
-                    373:    time(23,07.5),
-                    375:    time(23,14.6),
-                    400:    time(24,41),
-                    425:    time(26,5),
-                    450:    time(27,28.3),
-                    475:    time(28,51.6),
-                    500:    time(30,15.2),
-                    519:    time(31,19.3),
-                    520:    time(31,23.1),
-                    521:    time(31,28)}
-    times = interpolate_times(time_stamps)
-
-    print_srt(text_fi, times, "subtitles/runo_04_fi.srt", test=test)
-    print_srt(text_en, times, "subtitles/runo_04_en.srt", test=test)
+    generate(4, time_stamps, repeat=True, test=test)
     
     
 # Generates subtitles for poem 5
 def runo_5(test=False):
-    text_fi = load_text(5, "fi")
-    text_en = load_text(5, "en_kirby")
 
-    text_fi = add_repeat(text_fi)
-    text_en = add_repeat(text_en)
+    time_stamps = { 1:      time(0, 30.9),
+                    25:     time(1, 57.9),
+                    50:     time(3, 26.2),
+                    75:     time(4, 52.5),
+                    100:    time(6, 17.6),
+                    125:    time(7, 43.1),
+                    133:    time(8, 10.3),
+                    134:    time(8, 17.3),
+                    150:    time(9, 12.2),
+                    175:    time(10, 36.7),
+                    200:    time(12, 1.5),
+                    225:    time(13, 26.6),
+                    242:    time(14, 24.5),
+                    243:    time(14, 28)}
+    
+    last = max(time_stamps.keys())
+    time_stamps[last+1] = time_stamps[last]+5
 
-    assert(len(text_fi) == len(text_en))
-
-    time_stamps = { 1:      time(0,30.9),
-                    25:     time(1,57.9),
-                    50:     time(3,26.2),
-                    75:     time(4,52.5),
-                    100:    time(6,17.6),
-                    125:    time(7,43.1),
-                    133:    time(8,10.3),
-                    134:    time(8,17.3),
-                    150:    time(9,12.2),
-                    175:    time(10,36.7),
-                    200:    time(12,1.5),
-                    225:    time(13,26.6),
-                    242:    time(14,24.5),
-                    243:    time(14,28),
-                    244:    time(14,33)}
-                    
-    times = interpolate_times(time_stamps)
-
-    print_srt(text_fi, times, "subtitles/runo_05_fi.srt", test=test)
-    print_srt(text_en, times, "subtitles/runo_05_en.srt", test=test)
+    generate(5, time_stamps, repeat=True, test=test)
     
 
 # Generates subtitles for poem 6
@@ -294,54 +286,57 @@ def runo_6(test=False):
 
     assert(len(text_fi) == len(text_en))
 
-    time_stamps = { 1:      time(0,17.3),
-                    25:     time(1,48.7),
-                    50:     time(3,24.5),
-                    75:     time(4,59.8),
-                    100:    time(6,33.3),
-                    125:    time(8,7.1),
-                    150:    time(9,41.3),
-                    175:    time(11,14.8),
-                    200:    time(12,48.5),
-                    225:    time(14,21.9),
-                    235:    time(14,59.3),
-                    236:    time(15,3.6),
-                    237:    time(15,9)}
-    times = interpolate_times(time_stamps)
+    time_stamps = { 1:      time(0, 17.3),
+                    25:     time(1, 48.7),
+                    50:     time(3, 24.5),
+                    75:     time(4, 59.8),
+                    100:    time(6, 33.3),
+                    125:    time(8, 7.1),
+                    150:    time(9, 41.3),
+                    175:    time(11, 14.8),
+                    200:    time(12, 48.5),
+                    225:    time(14, 21.9),
+                    235:    time(14, 59.3),
+                    236:    time(15, 3.6)}
+    
+    last = max(time_stamps.keys())
+    time_stamps[last+1] = time_stamps[last]+5
 
-    print_srt(text_fi, times, "subtitles/runo_06_fi.srt", test=test)
-    print_srt(text_en, times, "subtitles/runo_06_en.srt", test=test)
+    generate(6, time_stamps, repeat=True, test=test)
 
 
 # Generates subtitles for poem 7
 def runo_7(test=False):
-    text_fi = load_text(7, "fi")
-    text_en = load_text(7, "en_kirby")
 
-    text_fi = add_repeat(text_fi)
-    text_en = add_repeat(text_en)
+    time_stamps = { 1:      time(0, 32.5),
+                    25:     time(1, 58.3),
+                    50:     time(3, 25.7),
+                    75:     time(4, 52.3),
+                    100:    time(6, 18.1),
+                    125:    time(7, 43.4),
+                    150:    time(9, 8.7),
+                    175:    time(10, 33.2),
+                    200:    time(11, 57.8),
+                    225:    time(13, 22.9),
+                    250:    time(14, 48.2),
+                    275:    time(16, 12.5),
+                    300:    time(17, 36.6),
+                    325:    time(19, 0.4),
+                    350:    time(20, 23.5),
+                    369:    time(21, 27.1),
+                    370:    time(21, 30.6)}
+    
+    last = max(time_stamps.keys())
+    time_stamps[last+1] = time_stamps[last]+4
 
-    assert(len(text_fi) == len(text_en))
+    generate(7, time_stamps, repeat=True, test=test)
 
-    time_stamps = { 1:      time(0,32.5),
-                    25:     time(1,58.3),
-                    50:     time(3,25.7),
-                    75:     time(4,52.3),
-                    100:    time(6,18.1),
-                    125:    time(7,43.4),
-                    150:    time(9,8.7),
-                    175:    time(10,33.2),
-                    200:    time(11,57.8),
-                    225:    time(13,22.9),
-                    250:    time(14,48.2),
-                    275:    time(16,12.5),
-                    300:    time(17,36.6),
-                    325:    time(19,0.4),
-                    350:    time(20,23.5),
-                    369:    time(21,27.1),
-                    370:    time(21,30.6),
-                    371:    time(21,35)}
-    times = interpolate_times(time_stamps)
 
-    print_srt(text_fi, times, "subtitles/runo_07_fi.srt", test=test)
-    print_srt(text_en, times, "subtitles/runo_07_en.srt", test=test)
+if __name__=="__main__":
+    runo_1()
+    runo_2()
+    runo_3()
+    runo_4()
+    runo_5()
+    runo_6()
+    runo_7()

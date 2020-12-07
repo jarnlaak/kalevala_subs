@@ -1515,6 +1515,6 @@ viljaisiksi vieriäni!"
 rahaisiksi rantojani,
 
 380
-00:22:03,600 --> 00:22:08,000
+00:22:03,600 --> 00:22:07,600
 viljaisiksi vieriäni!"
 

@@ -2323,6 +2323,6 @@ veikon viertokankahilla."
 ei aina ison ahoilla,
 
 582
-00:30:55,200 --> 00:30:59,000
+00:30:55,200 --> 00:30:59,200
 veikon viertokankahilla."
 
