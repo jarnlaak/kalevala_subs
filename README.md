@@ -34,13 +34,13 @@ Vaihda säkeiden alkuajat vastaamaan videota riveillä
                     345:    time(19,30),
                     346:    time(19,33)}
 ```
-Jokaisen rivin ensimmäinen numero tarkoittaa säkeen numeroa ja funktiokutsun `time()` sisällä olevat luvut kyseisen säkeen alkamisaikaa minuutteina ja sekunteina. Sekunnit kannattaa antaa kymmenyksen tarkkuudella. Ensimmäinen ja viimeinen säe tulee aina antaa. Jos runo on pidempi kuin tässä esimerkissä, joudut lisäämään rivejä. Joka 25:nnen säkeen määrittäminen vaikuttaisi riittävältä. Lisäinformaatiota löytyy `runo_1()`-funktion kommenteista tiedostossa generate.py.
+Jokaisen rivin ensimmäinen numero tarkoittaa säkeen numeroa ja funktiokutsun `time()` sisällä olevat luvut kyseisen säkeen alkamisaikaa minuutteina ja sekunteina. Sekunnit kannattaa antaa kymmenyksen tarkkuudella. Ensimmäinen ja viimeinen säe tulee aina antaa. Jos runo on pidempi kuin tässä esimerkissä, joudut lisäämään rivejä. Joka 25:nnen säkeen määrittäminen vaikuttaisi riittävältä. Lisätietoa löytyy `runo_1()`-funktion kommenteista tiedostossa generate.py.
 
 Vaihda numero rivillä
 ```python
     generate(1, time_stamps, repeat=True, test=test)
 ```
-vastaamaan sen runon numeroa, jonka tekstejä olet generoimassa.
+vastaamaan sen runon numeroa, jonka tekstejä olet generoimassa. Jos esityksessä ei ole kahden viimeisen säkeen kertausta, tee myös muokkaus `repeat=False`.
 
 Suorita luomasi funktio esimerkiksi muokkaamalla tiedoston loppua
 ```python
@@ -93,13 +93,13 @@ Change the starting times of the verses to correspond to the video on the lines
                     345:    time(19,30),
                     346:    time(19,33)}
 ```
-The first number on each line stands for the number of a verse. The numbers inside the function call `time()` are the corresponding times as minutes and seconds. The seconds should be given with an accuracy of 0.1 seconds. The first and last verses should always be given. If the poem is longer than the one in the example, you will have to add lines. It seems that defining every 25th verse gives good results. For more information, check the comments in the `runo_1()` function of generate.py.
+The first number on each line stands for the number of a verse. The numbers inside the function call `time()` are the starting times of corresponding verses as minutes and seconds. The seconds should be given with an accuracy of 0.1 seconds. The first and last verses should always be given. If the poem is longer than the one in the example, you will have to add lines. It seems that defining every 25th verse gives good results. For more information, check the comments in the `runo_1()` function of generate.py.
 
 Change the number on the line
 ```python
     generate(1, time_stamps, repeat=True, test=test)
 ```
-to corrspond to the poem that you are working on.
+to corrspond to the poem that you are working on. If the performance does not have a repetition of the last two verses, set `repeat=False`.
 
 Execute the new function, for example, by editing the end of the file
 ```python
