@@ -278,13 +278,6 @@ def runo_5(test=False):
 
 # Generates subtitles for poem 6
 def runo_6(test=False):
-    text_fi = load_text(6, "fi")
-    text_en = load_text(6, "en_kirby")
-
-    text_fi = add_repeat(text_fi)
-    text_en = add_repeat(text_en)
-
-    assert(len(text_fi) == len(text_en))
 
     time_stamps = { 1:      time(0, 17.3),
                     25:     time(1, 48.7),
